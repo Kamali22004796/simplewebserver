@@ -21,6 +21,7 @@ Serving the HTML pages.
 Testing the webserver.
 
 ## PROGRAM:
+~~~
 NAME:kamali E
 REG NO:212222110015
 
@@ -58,6 +59,7 @@ server_address = ('',8000)
 httpd = HTTPServer(server_address,myhandler)
 print("my webserver is running...")
 httpd.serve_forever()
+~~~
 
 ## OUTPUT:
 ![image](https://github.com/Kamali22004796/simplewebserver/assets/120567837/98e4b3e9-8516-4536-9ad2-de294b740172)
